@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Basics {
     public static void main(String[] args) {
-        // printNumbers();
-        // printOddNumbers();
-        // System.out.println(sigmaSum(255));
+        printNumbers();
+        printOddNumbers();
+        System.out.println(sigmaSum(255));
 
-        // int[] arr1 = {1,2,3,4,5,6,7};
-        // int[] arr2 = {-2,5,0,-3,12,8};
-        // iterateArr(arr1);
-        // findMax(arr2);
+        int[] arr1 = {1,2,3,4,5,6,7};
+        int[] arr2 = {-2,5,0,-3,12,8};
+        iterateArr(arr1);
+        findMax(arr2);
         oddArray(255);
 
     }
